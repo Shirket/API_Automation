@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.172 sec <<< FAILURE!
+duedilScreeningApiTest(com.travelex.automation.api.duedil.FCPAdpaterScreening)  Time elapsed: 6.083 sec  <<< FAILURE!
+java.lang.AssertionError: Hit was expected but NO HIT FOUND expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.travelex.automation.api.methods.ExecuteApiMethods_FCP.executePostMethodForFCPAdapter(ExecuteApiMethods_FCP.java:99)
+	at com.travelex.automation.api.duedil.FCPAdpaterScreening.duedilScreeningApiTest(FCPAdpaterScreening.java:136)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adapter API automation" preserve-order="true">
+
+	<test name="FCP_Adapter" preserve-order="true">
+		<parameter name="iteration" value="1" />
+		<classes>
+			<class name="com.travelex.automation.api.duedil.FCPAdpaterScreening" />
+		</classes>
+	</test>
+</suite>

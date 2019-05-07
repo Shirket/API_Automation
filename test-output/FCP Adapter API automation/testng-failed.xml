@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FCP Adapter API automation]">
+  <parameter name="iteration" value="1"/>
+  <test name="FCP_Adapter(failed)">
+    <parameter name="iteration" value="1"/>
+    <classes>
+      <class name="com.travelex.automation.api.duedil.FCPAdpaterScreening">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="duedilScreeningApiTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.travelex.automation.api.duedil.FCPAdpaterScreening -->
+    </classes>
+  </test> <!-- FCP_Adapter(failed) -->
+</suite> <!-- Failed suite [FCP Adapter API automation] -->

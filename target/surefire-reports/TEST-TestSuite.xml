@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="9.424" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Pravin\eclipse_workspace\adapter_api_automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Pravin\eclipse_workspace\adapter_api_automation"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\survep\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Pravin\eclipse_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3529308387740186200.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;C:\Users\survep\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\survep\AppData\Local\Android\Sdk\tools;C:\Users\survep\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\survep\AppData\Roaming\npm;C:\Users\survep\AppData\Local\Programs\Microsoft VS Code\bin;C:\Pravin\eclipse-jee-oxygen-R-win32-x86_64;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\survep"/>
+    <property name="user.timezone" value="GMT+05:30"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="survep"/>
+    <property name="java.class.path" value="/C:/Pravin/eclipse-jee-oxygen-R-win32-x86_64/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\Users\survep\.m2\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Pravin\eclipse_workspace\adapter_api_automation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.travelex.automation.api.duedil.FCPAdpaterScreening" name="duedilScreeningApiTest" time="6.083">
+    <failure message="Hit was expected but NO HIT FOUND expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Hit was expected but NO HIT FOUND expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.travelex.automation.api.methods.ExecuteApiMethods_FCP.executePostMethodForFCPAdapter(ExecuteApiMethods_FCP.java:99)
+	at com.travelex.automation.api.duedil.FCPAdpaterScreening.duedilScreeningApiTest(FCPAdpaterScreening.java:136)
+</failure>
+    <system-out>
+
+
+
+CONFIGURING TESTNG
+
+
+
+
+&lt;soap11:Envelope xmlns:soap11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;soap11:Body&gt;
+    &lt;getSearchResultsResponse xmlns=&quot;http://www.primeassociates.com/ComplianceManager/OFACReporter/&quot;&gt;
+      &lt;getSearchResultsResult&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&amp;lt;n:GETSEARCHRESULTS xmlns:n=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot;&amp;gt;&amp;lt;n:OUTPUT&amp;gt;&amp;lt;n:TRANSACTIONID&amp;gt;WLF_NO HIT_51d68f08-fe3c-44f5-b7de-58d94483d52f&amp;lt;/n:TRANSACTIONID&amp;gt;&amp;lt;n:MATCHES n:COUNT=&quot;0&quot;&amp;gt;&amp;lt;/n:MATCHES&amp;gt;&amp;lt;/n:OUTPUT&amp;gt;&amp;lt;/n:GETSEARCHRESULTS&amp;gt;&lt;/getSearchResultsResult&gt;
+    &lt;/getSearchResultsResponse&gt;
+  &lt;/soap11:Body&gt;
+&lt;/soap11:Envelope&gt;
+</system-out>
+    <system-err>58 [main] INFO com.travelex.automation.api.common.CommonFunctions - ------------------ &lt;C:\Pravin\eclipse_workspace\adapter_api_automation\&gt; --------------------
+58 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+59 [main] INFO com.travelex.automation.api.common.CommonFunctions - target/report/
+88 [main] INFO com.travelex.automation.api.common.Report - Report instantiated
+88 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+88 [main] INFO com.travelex.automation.api.common.CommonFunctions - https://api.sit.fcpofac.travelex.net/ofac
+89 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+89 [main] INFO com.travelex.automation.api.common.CommonFunctions - userau
+89 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+89 [main] INFO com.travelex.automation.api.common.CommonFunctions - passwordau
+89 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+90 [main] INFO com.travelex.automation.api.common.CommonFunctions - TRAVELEX
+106 [main] INFO com.travelex.automation.api.common.DataReader - reading the data
+106 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+107 [main] INFO com.travelex.automation.api.common.CommonFunctions - FOXWEB_Test_Data.xlsx
+107 [main] INFO com.travelex.automation.api.common.DataReader - File : FOXWEB_Test_Data.xlsx
+107 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+107 [main] INFO com.travelex.automation.api.common.CommonFunctions - test
+107 [main] INFO com.travelex.automation.api.common.DataReader - sheet : test
+1189 [main] INFO com.travelex.automation.api.common.DataReader - RowCount : 3, cols : 11
+1192 [main] INFO com.travelex.automation.api.common.DataReader - api data size = 2
+1196 [main] INFO com.travelex.automation.api.duedil.RTSScreeningAPI - API testing of &apos;201.0&apos; started
+1200 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+1200 [main] INFO com.travelex.automation.api.common.CommonFunctions - SALT_Request.xml
+1275 [main] INFO com.travelex.automation.api.duedil.RTSScreeningAPI - ******** REQUEST ***********:
+&lt;s:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:ofac=&quot;http://www.primeassociates.com/ComplianceManager/OFACReporter/&quot;&gt;   &lt;s:Header/&gt;   &lt;s:Body&gt;      &lt;getSearchResults&gt;         &lt;username&gt;userau&lt;/username&gt;         &lt;password&gt;passwordau&lt;/password&gt;         &lt;orgcode&gt;TRAVELEX&lt;/orgcode&gt;         &lt;xmlinput&gt;            &lt;![CDATA[&lt;GETSEARCHRESULTS xmlns=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+	&lt;INPUT&gt;
+		&lt;ORGANIZATION&gt;Travelex&lt;/ORGANIZATION&gt;
+		&lt;BRANCH&gt;FOXWEB&lt;/BRANCH&gt;
+		&lt;DEPT&gt;Australia&lt;/DEPT&gt;
+		&lt;SOURCE&gt;FOXWEB&lt;/SOURCE&gt;
+		&lt;FILEIMG&gt;PEPANZSD&lt;/FILEIMG&gt;
+		&lt;USEDB&gt;true&lt;/USEDB&gt;
+		&lt;DELEGATED&gt;false&lt;/DELEGATED&gt;
+		&lt;RETURNORIGINALREQUEST&gt;false&lt;/RETURNORIGINALREQUEST&gt;
+		&lt;SEARCHDATA&gt;
+			&lt;PARTYID&gt;SALT_AUTO_1&lt;/PARTYID&gt;
+			&lt;PARTYNAME xmlns:p6=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p6:ALGORITHM=&quot;MatchFullName&quot; p6:MISSPELLING=&quot;true&quot; p6:MUSTALSOMATCHFIELDS=&quot;STREET,CITY,COUNTRY,DATEOFBIRTH&quot; p6:MUSTALSOMATCHTYPE=&quot;AllOf&quot; p6:MUSTMATCHTYPE=&quot;PARTYNAME,KEYWORD&quot; p6:USETEXTEXCLUDE=&quot;true&quot;&gt;
+				&lt;FULLNAME&gt;Amy jackson&lt;/FULLNAME&gt;
+			&lt;/PARTYNAME&gt;
+			&lt;PARTYADDRESS&gt;
+				&lt;STREET xmlns:p7=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p7:ALGORITHM=&quot;None&quot; p7:MISSPELLING=&quot;true&quot; p7:MUSTALSOMATCHFIELDS=&quot;CITY,COUNTRY,DATEOFBIRTH&quot; p7:MUSTALSOMATCHTYPE=&quot;AllOf&quot; p7:MUSTMATCHTYPE=&quot;STREETADDRESS&quot; p7:USETEXTEXCLUDE=&quot;true&quot;&gt;NULL&lt;/STREET&gt;
+				&lt;CITY xmlns:p7=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p7:ALGORITHM=&quot;None&quot; p7:MISSPELLING=&quot;true&quot; p7:MUSTALSOMATCHFIELDS=&quot;STREET,COUNTRY,DATEOFBIRTH&quot; p7:MUSTALSOMATCHTYPE=&quot;AllOf&quot; p7:MUSTMATCHTYPE=&quot;CITY&quot; p7:USETEXTEXCLUDE=&quot;true&quot;/&gt;
+				&lt;STATE xmlns:p7=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p7:ALGORITHM=&quot;None&quot; p7:MISSPELLING=&quot;true&quot; p7:USETEXTEXCLUDE=&quot;true&quot;&gt;NULL&lt;/STATE&gt;
+				&lt;POSTALCODE/&gt;
+				&lt;COUNTRY xmlns:p7=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p7:ALGORITHM=&quot;None&quot; p7:MISSPELLING=&quot;true&quot; p7:MUSTALSOMATCHFIELDS=&quot;STREET,CITY,DATEOFBIRTH&quot; p7:MUSTALSOMATCHTYPE=&quot;AllOf&quot; p7:MUSTMATCHTYPE=&quot;COUNTRY&quot; p7:USETEXTEXCLUDE=&quot;true&quot;/&gt;
+			&lt;/PARTYADDRESS&gt;
+			&lt;DATEOFBIRTH xmlns:p6=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot; p6:ALGORITHM=&quot;None&quot; p6:MISSPELLING=&quot;true&quot; p6:MUSTALSOMATCHFIELDS=&quot;STREET,CITY,COUNTRY&quot; p6:MUSTALSOMATCHTYPE=&quot;AllOf&quot; p6:USETEXTEXCLUDE=&quot;true&quot;&gt;01/30/1988&lt;/DATEOFBIRTH&gt;
+		&lt;/SEARCHDATA&gt;
+	&lt;/INPUT&gt;
+&lt;/GETSEARCHRESULTS&gt;]]&gt;         &lt;/xmlinput&gt;      &lt;/getSearchResults&gt;   &lt;/s:Body&gt; &lt;/s:Envelope&gt;
+1276 [main] INFO com.travelex.automation.api.common.CommonFunctions - Configuration.properties is loaded in properties object{DataSheet=test, ADAPTER_URL=https://api.sit.fcpofac.travelex.net/ofac, RTSRequest=RTS_Request.xml, OutputReportPath=target/report/, ORIG_CODE=TRAVELEX, ScreeningFilePath=FOXWEB_Test_Data.xlsx, RequestXml=SALT_Request.xml, USERNAME=userau, PASSWORD=passwordau}
+1276 [main] INFO com.travelex.automation.api.common.CommonFunctions - test
+7250 [main] INFO com.travelex.automation.api.methods.APIMethods - ******** RESPONSE ***********:
+&lt;soap11:Envelope xmlns:soap11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;soap11:Body&gt;
+    &lt;getSearchResultsResponse xmlns=&quot;http://www.primeassociates.com/ComplianceManager/OFACReporter/&quot;&gt;
+      &lt;getSearchResultsResult&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&amp;lt;n:GETSEARCHRESULTS xmlns:n=&quot;www.primeassociates.com/ComplianceManager/OFACReporter&quot;&amp;gt;&amp;lt;n:OUTPUT&amp;gt;&amp;lt;n:TRANSACTIONID&amp;gt;WLF_NO HIT_51d68f08-fe3c-44f5-b7de-58d94483d52f&amp;lt;/n:TRANSACTIONID&amp;gt;&amp;lt;n:MATCHES n:COUNT=&quot;0&quot;&amp;gt;&amp;lt;/n:MATCHES&amp;gt;&amp;lt;/n:OUTPUT&amp;gt;&amp;lt;/n:GETSEARCHRESULTS&amp;gt;&lt;/getSearchResultsResult&gt;
+    &lt;/getSearchResultsResponse&gt;
+  &lt;/soap11:Body&gt;
+&lt;/soap11:Envelope&gt;
+7260 [main] INFO com.travelex.automation.api.methods.APIMethods - Transaction ID is :- WLF_NO HIT_51d68f08-fe3c-44f5-b7de-58d94483d52f
+</system-err>
+  </testcase>
+  <testcase classname="com.travelex.automation.api.duedil.FCPAdpaterScreening" name="duedilScreeningApiTest" time="3.341"/>
+</testsuite>

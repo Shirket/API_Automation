@@ -1,0 +1,44 @@
+<GETSEARCHRESULTS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="www.primeassociates.com/ComplianceManager/OFACReporter">
+	<INPUT>
+		<ORGANIZATION>TRAVELEX</ORGANIZATION>
+		<BRANCH>FOXWEB</BRANCH>
+		<DEPT>Australia</DEPT>
+		<SOURCE>FOXWEB</SOURCE>
+		<FILEIMG></FILEIMG>
+		<USEDB>true</USEDB>
+		<DELEGATED>false</DELEGATED>
+		<RETURNORIGINALREQUEST>false</RETURNORIGINALREQUEST>
+		<SEARCHDATA>
+			<PARTYID>FOXWEB_AUTO_1</PARTYID>
+			<PARTYNAME p6:ALGORITHM="MatchFullName" p6:MISSPELLING="true"
+				p6:USETEXTEXCLUDE="true" p6:MUSTMATCHTYPE="PARTYNAME,KEYWORD"
+				p6:MUSTALSOMATCHTYPE="AllOf" p6:MUSTALSOMATCHFIELDS="STREET,CITY,COUNTRY,DATEOFBIRTH"
+				xmlns:p6="www.primeassociates.com/ComplianceManager/OFACReporter">
+				<FULLNAME></FULLNAME>
+			</PARTYNAME>
+			<PARTYADDRESS>
+				<STREET p7:ALGORITHM="None" p7:MISSPELLING="true"
+					p7:USETEXTEXCLUDE="true" p7:MUSTMATCHTYPE="STREETADDRESS"
+					p7:MUSTALSOMATCHTYPE="AllOf" p7:MUSTALSOMATCHFIELDS="CITY,COUNTRY,DATEOFBIRTH"
+					xmlns:p7="www.primeassociates.com/ComplianceManager/OFACReporter"></STREET>
+				<CITY p7:ALGORITHM="None" p7:MISSPELLING="true"
+					p7:USETEXTEXCLUDE="true" p7:MUSTMATCHTYPE="CITY"
+					p7:MUSTALSOMATCHTYPE="AllOf" p7:MUSTALSOMATCHFIELDS="STREET,COUNTRY,DATEOFBIRTH"
+					xmlns:p7="www.primeassociates.com/ComplianceManager/OFACReporter"></CITY>
+				<STATE p7:ALGORITHM="None" p7:MISSPELLING="true"
+					p7:USETEXTEXCLUDE="true"
+					xmlns:p7="www.primeassociates.com/ComplianceManager/OFACReporter"></STATE>
+				<POSTALCODE></POSTALCODE>
+				<COUNTRY p7:ALGORITHM="None" p7:MISSPELLING="true"
+					p7:USETEXTEXCLUDE="true" p7:MUSTMATCHTYPE="COUNTRY"
+					p7:MUSTALSOMATCHTYPE="AllOf" p7:MUSTALSOMATCHFIELDS="STREET,CITY,DATEOFBIRTH"
+					xmlns:p7="www.primeassociates.com/ComplianceManager/OFACReporter"></COUNTRY>
+			</PARTYADDRESS>
+			<DATEOFBIRTH p6:ALGORITHM="None" p6:MISSPELLING="true"
+				p6:USETEXTEXCLUDE="true" p6:MUSTALSOMATCHTYPE="AllOf"
+				p6:MUSTALSOMATCHFIELDS="STREET,CITY,COUNTRY"
+				xmlns:p6="www.primeassociates.com/ComplianceManager/OFACReporter"></DATEOFBIRTH>
+		</SEARCHDATA>
+	</INPUT>
+</GETSEARCHRESULTS>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetCustomerMatch xmlns="http://tempuri.org/">
+      <PrimeReq>
+        <FirstName></FirstName>
+        <MiddleName></MiddleName>
+        <LastName></LastName>
+        <DateOfBirth></DateOfBirth>
+        <Street></Street>
+        <City></City>
+        <Country></Country>
+        <User></User>
+        <Password></Password>
+        <Org>United Kingdom</Org>
+        <Branch>RTS</Branch>
+        <Dept>UK</Dept>
+        <Source>RTS chk 2008</Source>
+        <SanctionRule>BESANCTIONSD</SanctionRule>
+      </PrimeReq>
+    </GetCustomerMatch>
+  </soap:Body>
+</soap:Envelope>

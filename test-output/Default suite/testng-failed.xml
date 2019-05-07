@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.travelex.automation.api.duedil.FCPAdpaterScreening">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="duedilScreeningApiTest" invocation-numbers="12 39 40 41 45 63 64 65 73 75 80 81 85 86 91 99 100 114 116 118 119 136 141 148"/>
+        </methods>
+      </class> <!-- com.travelex.automation.api.duedil.FCPAdpaterScreening -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
