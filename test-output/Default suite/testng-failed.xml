@@ -6,7 +6,7 @@
       <class name="com.travelex.automation.api.duedil.FCPAdpaterScreening">
         <methods>
           <include name="beforeClass"/>
-          <include name="duedilScreeningApiTest" invocation-numbers="5 13 40 41 42 43 44 45 46 47 48 54 93 130 131 139 142 143 162 163 164 172 176 177 179 181 186 187 189 191 195 196 197 201 203 205 213 214 215 233 234 236 239 240 257 263 270 279 360 361 364 365"/>
+          <include name="duedilScreeningApiTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.travelex.automation.api.duedil.FCPAdpaterScreening -->
     </classes>
